@@ -13,18 +13,18 @@ This project is designed to perform Exploratory Data Analysis (EDA) on a vehicle
 
 -----------------------------------------------------
 ## Technologies Used:
-    - **Python**
-    - **Jupyter Notebook**
-    - **Streamlit**
-    - **Plotly Express**
-    - **Pandas**
+- **Python**
+- **Jupyter Notebook**
+- **Streamlit**
+- **Plotly Express**
+- **Pandas**
 
 -----------------------------------------------------
 
 ## Setup Instructions:
 - **Prerequisites**:
     - VS Code (latest version)
-    - python 3.10*
+    - python 3.10.*
 
 - **Installed Required Libraries**:
     pip install -r requirements.txt
