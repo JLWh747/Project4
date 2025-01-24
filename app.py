@@ -15,7 +15,7 @@ st.plotly_chart(scatter)
 if st.checkbox("Show Dataset"):
     st.write(df.head())
 
-    #instances = df['condition'].unique().tolist()
-    #filter = st.selectbox('Filter Cars by Condition',instances)
-    #new_df = df[df['condition']== filter]
-    #st.dataframe(new_df)
+    instances = df['condition'].unique().tolist()
+    filter = st.selectbox('Filter Cars by Condition',instances)
+    new_df = df[df['condition']== filter]
+    st.write(new_df)
