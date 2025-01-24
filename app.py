@@ -9,11 +9,11 @@ df = pd.read_csv('vehicles_us.csv')
 st.header('Vehicle Data Dashboard')
 
 #Adding Histogram to our App
-histogram = px.histogram(df,x='model_year',title ='model year of car')
+histogram = px.histogram(df,x='model_year',title ='Distribution of Model Year of Vehicles')
 st.plotly_chart(histogram)
 
 #Adding a Scatter Plot to our App
-scatter = px.scatter(df,x='model_year',y='condition', title ='model_year vs. condition')
+scatter = px.scatter(df,x='model_year',y='price', title ='Prices vs. Model_Year')
 st.plotly_chart(scatter)
 
 #Adding a Checkbox to our App
